@@ -1,0 +1,49 @@
+
+*{
+  font-family:'Albert Sans',monospace;
+  font-weight:bold;
+
+}
+
+.search-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+  }
+  
+
+  input {
+    font-size: 1rem;
+  }
+  
+  .user-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 4fr));
+    gap: .50rem;
+    margin-top: 1rem;
+
+  }
+  
+  .card {
+    border: 1px solid black;
+    background-color: #f6f6ff;
+    padding: .5rem;
+    border-radius: 6px;
+    border-color:#eaeafa;
+
+  }
+  
+  .card > .header {
+    margin-bottom: .25rem;
+  }
+  
+  .card > .body {
+    font-size: .8rem;
+    color: #777;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+  
